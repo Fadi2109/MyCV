@@ -276,7 +276,7 @@ function renderRelativePage(page = "main") {
         <div class="col-12 d-flex justify-content-center">
           <img
             class="imageProfile"
-            src="./images/profile.jpeg"
+            src="./profile.jpeg"
             alt="profile image"
           />
         </div>
