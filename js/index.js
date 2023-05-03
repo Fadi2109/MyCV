@@ -371,7 +371,7 @@ function renderRelativePage(page = "main") {
         </span>
       </div>
       <div class="col-12 bg-primary-subtle lSideP pt-2">
-        <div class="row myProjects">
+        <div class="row myProjects d-flex justify-content-evenly">
           <!-- the cards are here -->
         </div>
       </div>
