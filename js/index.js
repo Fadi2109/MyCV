@@ -40,7 +40,7 @@ var software = [
 var languages = [
   {
     item: "Arabic",
-    value: "Mother's tongue",
+    value: "Native tongue",
   },
   {
     item: "Hebrew",
