@@ -59,7 +59,7 @@ var workExperience = [
   {
     title: "2015 – 2019, Carpentry worker",
     items: [
-      "First begin as CNC machiene worker",
+      "First begin as CNC machine operator",
       "after that planning and supervision of the production process of the carpentry factory",
     ],
   },
@@ -94,7 +94,7 @@ var social = [
   {
     item: "Development",
     value:
-      "at ''Melah'' organization in Peqiin, where I participated in the development of the organization's mobile Android applications.",
+      "at ''Melah'' organization in Peqiin, as Android application developer for the organization.",
   },
   {
     item: "senior medic",
