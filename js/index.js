@@ -104,7 +104,7 @@ var social = [
 
 var myProjects = [
   {
-    title: "Melah Duty Tracking App",
+    title: "Melah	shift management App",
     desc: "An application that orginize shifts of the vollantiers in Melah orginization.",
     technologise: ["Android Studio", "Java", "Firebase"],
     createdAt: "20/12/2022",
