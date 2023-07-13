@@ -116,7 +116,7 @@ var myProjects = [
     desc: "An application that helps people in emergency situations.",
     technologise: ["Android Studio", "Java", "Firebase"],
     createdAt: "at Development",
-    link: "https://www.wix.com/website-template/view/html/1896?originUrl=https%3A%2F%2Fwww.wix.com%2Fwebsite%2Ftemplates%2Fhtml%2Flanding-pages%2Fcoming-soon&tpClick=view_button&esi=3ede5975-fde9-4c6d-b619-698c9b99d26c",
+    link: "https://play.google.com/store/apps/details?id=com.Melah.sosmelah",
     img: "./IMG_0488-2.png",
   },
   {
