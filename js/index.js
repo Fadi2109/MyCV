@@ -5,100 +5,226 @@ function onInit() {
 
 var relativePage = "main";
 
+// var personalDetails = [
+//   {
+//     item: "Name",
+//     value: "Fadi Khier",
+//   },
+//   {
+//     item: "Tel",
+//     value: "+972-53-520-2511",
+//   },
+//   {
+//     item: "Email",
+//     value: "fk.1996.5@gmail.com",
+//   },
+//   {
+//     item: "Address",
+//     value: "Peqiin, Israel",
+//   },
+// ];
 var personalDetails = [
   {
-    item: "Name",
-    value: "Fadi Khier",
+    item: "שם",
+    value: "פאדי ח'יר",
   },
   {
-    item: "Tel",
+    item: "טל",
     value: "+972-53-520-2511",
   },
   {
-    item: "Email",
+    item: 'דוא"ל',
     value: "fk.1996.5@gmail.com",
   },
   {
-    item: "Address",
-    value: "Peqiin, Israel",
+    item: "כתובת",
+    value: "פקיעין, ישראל",
   },
 ];
+
+// var software = [
+//   {
+//     item: "Highly proficient",
+//     value: "with Java, Html, CSS, JavaScript, TypeScript, Office.",
+//   },
+//   {
+//     item: "Very good",
+//     value: "control of Firebase, Angular, android studio",
+//   },
+//   {
+//     item: "Good control",
+//     value: "of Node.js and MongoDB",
+//   },
+// ];
 var software = [
   {
-    item: "Highly proficient",
-    value: "with Java, Html, CSS, JavaScript, TypeScript, Office.",
-  },
-  {
-    item: "Very good",
-    value: "control of Firebase, Angular, android studio",
-  },
-  {
-    item: "Good control",
-    value: "of Node.js and MongoDB",
+    item: "בעל מיומנות גבוהה",
+    value:
+      "ב-Java, Html, CSS, JavaScript, TypeScript ,Firebase, Angular, Android studio, React Native, Node.js ,MongoDB ו- Office.",
   },
 ];
+// var software = [
+//   {
+//     item: "בעל מיומנות גבוהה",
+//     value: "ב-Java, Html, CSS, JavaScript, TypeScript, Office",
+//   },
+//   {
+//     item: "שליטה טובה מאוד",
+//     value: "ב-Firebase, Angular, android studio",
+//   },
+//   {
+//     item: "שליטה טובה",
+//     value: "ב-Node.js ו-MongoDB",
+//   },
+// ];
+
+// var languages = [
+//   {
+//     item: "Arabic",
+//     value: "Native language",
+//   },
+//   {
+//     item: "Hebrew",
+//     value: "Full command",
+//   },
+//   {
+//     item: "English",
+//     value: "Very good command",
+//   },
+// ];
 var languages = [
   {
-    item: "Arabic",
-    value: "Native language",
+    item: "ערבית",
+    value: "שפה ילידית",
   },
   {
-    item: "Hebrew",
-    value: "Full command",
+    item: "עברית",
+    value: "שליטה מלאה",
   },
   {
-    item: "English",
-    value: "Very good command",
+    item: "אנגלית",
+    value: "שליטה טובה מאוד",
   },
 ];
+
+// var workExperience = [
+//   {
+//     title: "2019 – Today, Carpenter and renovations man",
+//     items: ["Carpenter and renovations man"],
+//   },
+//   {
+//     title: "2015 – 2019, Carpentry worker",
+//     items: [
+//       "First begin as CNC machine operator",
+//       "after that planning and supervision of the production process of the carpentry factory",
+//     ],
+//   },
+//   {
+//     title: "2014 – 2015, Renovations man",
+//     items: ["All renovation works such as plaster, paint, flooring and more"],
+//   },
+// ];
+
 var workExperience = [
   {
-    title: "2019 – Today, Carpenter and renovations man",
-    items: ["Carpenter and renovations man"],
+    title: "2020 - היום, מפתח בחברת איי סקול פ.ש. בע''מ",
+    items: ["השתתפתי בפיתוח מערכת אייסקור"],
   },
   {
-    title: "2015 – 2019, Carpentry worker",
+    title: "2020 - היום, מתן שירותי פיתוח תוכנה ואתרים",
+    items: ["שירות פיתוח אפליקציות ותוכנות ניהול לעסקים ואנשים פרטיים"],
+  },
+  {
+    title: "2020 - היום, שיתוף פעולה עם ספקים ועסקים בתחום",
     items: [
-      "First begin as CNC machine operator",
-      "after that planning and supervision of the production process of the carpentry factory",
+      "עבדתי בשיתוף פעולה עם ספקים ועסקים בתחום התוכנה לפיתוח של כמה תוכנות ואפליקציות",
     ],
   },
-  {
-    title: "2014 – 2015, Renovations man",
-    items: ["All renovation works such as plaster, paint, flooring and more"],
-  },
+
+  // {
+  //   title: "2019 – עד היום, נגר ואיש שיפוצים",
+  //   items: ["נגר ואיש שיפוצים"],
+  // },
+  // {
+  //   title: "2015 – 2019, עובד נגרות",
+  //   items: [
+  //     "התחלתי כמפעיל מכונת CNC",
+  //     "לאחר מכן תכנון ופיקוח על תהליך הייצור במפעל הנגרות",
+  //   ],
+  // },
+  // {
+  //   title: "2014 – 2015, איש שיפוצים",
+  //   items: ["כל עבודות השיפוצים כגון טיח, צבע, ריצוף ועוד"],
+  // },
 ];
+
+// var education = [
+//   {
+//     title: "2023 – Full Stack programming course at Coding Academy College",
+//     items: ["Frontend: Angular", "Backend: Firebase"],
+//   },
+//   {
+//     title: "2020 - 2023 Software Practical Engineer, Ort Brauda College",
+//     items: [
+//       "Final project: Administrative site for a planning and construction company",
+//     ],
+//   },
+//   {
+//     title: "2014 – 2017, Mechatronics Practical Engineer, Ort Brauda College",
+//     items: [
+//       "I studied mechatronics engineering but without a diploma and a final project",
+//     ],
+//   },
+//   {
+//     title: "2011 – 2014, High School Diploma, Peqiin",
+//     items: ["physics and electronics major"],
+//   },
+// ];
 var education = [
   {
-    title: "2023 – Full Stack programming course at Coding Academy College",
+    title: "2023 – קורס תכנות Full Stack במכללת Pro-Code",
     items: ["Frontend: Angular", "Backend: Firebase"],
   },
   {
-    title: "2020 - 2023 Software Practical Engineer, Ort Brauda College",
+    title: "2020 - 2023 הנדסאי תוכנה, מכללת אורט בראודה",
+    items: ["פרויקט גמר: אתר ניהולי לחברת תכנון ובנייה"],
+  },
+  {
+    title: "2015 - 2023 קורסים מקוונים בתחום התכנות",
     items: [
-      "Final project: Administrative site for a planning and construction company",
+      "קורסים באינטרניט בתחומי התכנות והפיתוח כמו: HTML, CSS, JavaScript, TypeScript, Angular, Android studio...",
     ],
   },
   {
-    title: "2014 – 2017, Mechatronics Practical Engineer, Ort Brauda College",
-    items: [
-      "I studied mechatronics engineering but without a diploma and a final project",
-    ],
+    title: "2014 – 2017, הנדסאי מכטרוניקה, מכללת אורט בראודה",
+    items: ["למדתי הנדסת מכטרוניקה אך ללא דיפלומה ופרויקט גמר"],
   },
   {
-    title: "2011 – 2014, High School Diploma, Peqiin",
-    items: ["physics and electronics major"],
+    title: "2011 – 2014, תעודת בגרות, פקיעין",
+    items: ["התמחות בפיזיקה ואלקטרוניקה"],
   },
 ];
+
+// var social = [
+//   {
+//     item: "Development",
+//     value:
+//       "at ''Melah'' organization in Peqiin, as Android application developer for the organization.",
+//   },
+//   {
+//     item: "senior medic",
+//     value: "at ''Melah'' organization in Peqiin",
+//   },
+// ];
+
 var social = [
   {
-    item: "Development",
-    value:
-      "at ''Melah'' organization in Peqiin, as Android application developer for the organization.",
+    item: "אחראי מחשוב",
+    value: "בארגון 'מלח' בפקיעין, כמפתח אפליקציות ומערכת ניהול לארגון.",
   },
   {
-    item: "senior medic",
-    value: "at ''Melah'' organization in Peqiin",
+    item: "חובש בכיר",
+    value: "בארגון 'מלח' בפקיעין",
   },
 ];
 
@@ -259,29 +385,34 @@ function renderRelativePage(page = "main") {
   htmlStr = "";
   switch (page) {
     case "main":
-      htmlStr += `<div class="row">
+      htmlStr +=
+        `<div class="row">
       <div class="col-12 bg-primary header d-flex align-items-center p-4">
-        <span class="fs-2 fw-bolder">Fadi Khier CV</span>
+        <span class="fs-2 fw-bolder">פאדי חיר - מנהל הפיתוח</span>
 
-        <span class="fs-2 ms-auto">
-          <Button class="d-flex align-items-center navBtn" onClick="renderRelativePage('projects')">
-            <span class="material-symbols-outlined fs-2"
-              >integration_instructions
-            </span>
-            <span class="fs-3">My Projects</span>
-          </Button>
-        </span>
+        ` +
+        // <span class="fs-2 ms-auto">
+        //   <Button class="d-flex align-items-center navBtn" onClick="renderRelativePage('projects')">
+        //     <span class="material-symbols-outlined fs-2"
+        //       >integration_instructions
+        //     </span>
+        //     <span class="fs-3">My Projects</span>
+        //   </Button>
+        // </span>
+        `
       </div>
-      <div class="col-xs-12 col-lg-4 bg-primary-subtle lSide pt-2">
+      <div class="col-xs-12 col-lg-4 lSide pt-2" style="
+      background-color: #87b8ff;
+  ">
         <div class="col-12 d-flex justify-content-center">
           <img
             class="imageProfile"
-            src="./profile.jpeg"
+            src="./profile-image.jpg"
             alt="profile image"
           />
         </div>
         <div class="col-12">
-          <span class="fs-4 fw-bolder">Personal details:</span>
+          <span class="fs-4 fw-bolder">פרטים אישיים:</span>
           <ul class="personalDetails">
             <li>
               <b>Name:</b>
@@ -290,7 +421,7 @@ function renderRelativePage(page = "main") {
           </ul>
         </div>
         <div class="col-12">
-          <span class="fs-4 fw-bolder">Software:</span>
+          <span class="fs-4 fw-bolder">תוכנה:</span>
           <ul class="software">
             <li>
               <b>Name:</b>
@@ -299,7 +430,7 @@ function renderRelativePage(page = "main") {
           </ul>
         </div>
         <div class="col-12">
-          <span class="fs-4 fw-bolder">Languages:</span>
+          <span class="fs-4 fw-bolder">שפות:</span>
           <ul class="languages">
             <li>
               <b>Name:</b>
@@ -310,7 +441,7 @@ function renderRelativePage(page = "main") {
       </div>
       <div class="col-xs-12 col-lg-8 bg-primary-subtle rSide pt-2">
         <div class="col-12">
-          <span class="fs-4 fw-bolder">Work Experience:</span>
+          <span class="fs-4 fw-bolder">נסיון תעסוקתי:</span>
           <ul class="workExperience">
             <li>
               <b>Name:</b>
@@ -319,7 +450,7 @@ function renderRelativePage(page = "main") {
           </ul>
         </div>
         <div class="col-12">
-          <span class="fs-4 fw-bolder">Education:</span>
+          <span class="fs-4 fw-bolder">השכלה:</span>
           <ul class="education">
             <li>
               <b>Name:</b>
@@ -329,7 +460,7 @@ function renderRelativePage(page = "main") {
         </div>
         <div class="col-12">
           <span class="fs-4 fw-bolder"
-            >Social activities and volunteering:</span
+            >פעילויות חברתיות והתנדבות:</span
           >
           <ul class="social">
             <li>
@@ -342,7 +473,7 @@ function renderRelativePage(page = "main") {
       <div
         class="col-12 bg-dark text-light footer d-flex align-items-center justify-content-center"
       >
-        <span>Created By Fadi Khier &copy;</span>
+        <span>נוצר על ידי פאדי חיר © 2023</span>
         <a href="mailto:fk.1996.5@gmail.com" target="_blank">
         <i class="bi bi-envelope-at-fill ms-2 text-danger"></i>
       </a>
