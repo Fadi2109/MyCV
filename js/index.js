@@ -404,13 +404,6 @@ function renderRelativePage(page = "main") {
       <div class="col-xs-12 col-lg-4 lSide pt-2" style="
       background-color: #87b8ff;
   ">
-        <div class="col-12 d-flex justify-content-center">
-          <img
-            class="imageProfile"
-            src="./profile-image.jpg"
-            alt="profile image"
-          />
-        </div>
         <div class="col-12">
           <span class="fs-4 fw-bolder">פרטים אישיים:</span>
           <ul class="personalDetails">
